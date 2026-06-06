@@ -33,7 +33,7 @@ wealth-dashboard/
 ## Data Source
 
 Statements live at a configurable path set in `config.yaml` under `statements_root`.
-Current location: `/Users/gera.ledesma/Documents/Claude/Projects/finances/Accounts/`
+Current location: `~/Documents/finances/Accounts/` (configurable via `statements_root` in `config.yaml`)
 This will move to the repo's working folder in a future step — update `statements_root` then.
 
 ```
@@ -106,7 +106,7 @@ Accounts/{subfolder}/
 All accounts are explicitly mapped — no keyword guessing. Example:
 
 ```yaml
-statements_root: /Users/gera.ledesma/Documents/Claude/Projects/finances/Accounts
+statements_root: ~/Documents/finances/Accounts
 
 usd_mxn: 17.15   # static rate for v1; live rate via yfinance in v2
 
